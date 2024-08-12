@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Comelón - Cafeterías</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e9ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .header {
+            background-color: #233f7f;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .header a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .filters {
+            background-color: #233f7f;
+            padding: 15px;
+            color: white;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filters select {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .card {
+            background-color: #a5b8ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .card img {
+            max-width: 100px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .card p {
+            margin-bottom: 10px;
+        }
+
+        .card .location, .card .price {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .card a {
+            color: #233f7f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #233f7f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="#">Inicio</a>
+        <a href="#">Restaurantes</a>
+        <a href="#">Cafeterías</a>
+        <a href="#">Departamentos</a>
+    </div>
+
+    <div class="container">
+
+        <div class="filters">
+            <label for="tipo-cocina">Tipo de cocina:</label>
+            <select id="tipo-cocina">
+                <option value="">--Elegir--</option>
+            </select>
+            <label for="ordenar">Ordenar por:</label>
+            <select id="ordenar">
+                <option value="">--Elegir--</option>
+            </select>
+        </div>
+
+        <div class="card">
+            <img src="expresion_cultural_logo.png" alt="Expresión Cultural">
+            <div>
+                <h3>Expresión Cultural</h3>
+                <div class="location">114 Calle Poniente entre 6ta y 8a Avenida Sur, Santa Ana 2201 El Salvador</div>
+                <div class="price">Precio: $$-$$$</div>
+                <p>Más de 15 años de experiencia en brindar un ambiente diferente, libre de humo de cigarro y bebidas alcohólicas. Deliciosos platillos, postres, entraditas y bebidas. Un lugar más fresco y natural, con música de fondo tranquila y relajante. Ofreciendo además opciones veganas y vegetarianas.</p>
+                <a href="#">Ver más detalles >>></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="cadek_logo.png" alt="Cadek">
+            <div>
+                <h3>Cadek</h3>
+                <div class="location">Calle Libertad Oriente, Santa Ana 2201 El Salvador</div>
+                <div class="price">Precio: $$-$$$</div>
+                <p>Ofrecemos specialty coffee, café 100% salvadoreño. Buscamos crear cultura sobre la maravillosa cultura del café y de la lectura, que sigue creciendo en nuestra bella ciudad. Te ofrecemos desde libros, postres y snacks saludables.</p>
+                <a href="#">Ver más detalles >>></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="panizzimo_logo.png" alt="Panizzimo">
+            <div>
+                <h3>Panizzimo</h3>
+                <div class="location">Calle Libertad Oriente, Santa Ana 2201 El Salvador</div>
+                <div class="price">Precio: $$-$$$</div>
+                <p>Panadería, café, italiana.</p>
+                <a href="#">Ver más detalles >>></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="cafe_tejas_logo.png" alt="Cafe Tejas">
+            <div>
+                <h3>Café Tejas</h3>
+                <div class="location">114 Calle Poniente entre 6ta y 8a Avenida Sur, Santa Ana 2201 El Salvador</div>
+                <div class="price">Precio: $$-$$$</div>
+                <p>Café Tejas: un lugar con un ambiente Rústico Natural, acompañado de un delicioso y variado menú.</p>
+                <a href="#">Ver más detalles >>></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        
+    </div>
+
+</body>
+</html>

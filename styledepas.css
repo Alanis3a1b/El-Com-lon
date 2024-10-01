@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+body {
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+  }
+
+button {
+   color: #222222;
+   shape-margin: 10px;
+   background-color: #f0f0f0;
+   padding: 10% 10%;
+   
+
+}
+.botondesplegable img{
+   width:20px;
+   height: 20px;
+    
+}
+.p{
+    font-size:100%;
+    color:#222222
+}
+
+.heading {
+    font-size: 200%;
+    display: center;
+    font-weight: 300;
+    margin: 15px 15px 15px 15px;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d6e889;
+}
+
+.footer{
+    font-size: 25px;
+    color: #222222;
+    text-align: center;
+}
+
+.filas{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.filas img{
+border-radius: 5px 5px 5px 5px;
+}
+
+.filas:hover{
+    border: 1px solid #f0f0f0 ;
+    background-color: #f7ae52;
+    border-radius: 5%;
+}
+
+.filasextra{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+
+}
+
+.filasextra:hover{
+    border: 1px solid #f0f0f0 ;
+    background-color: #bfdd5b;
+    border-radius: 5%;
+    }
+    
